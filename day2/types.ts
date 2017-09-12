@@ -1,0 +1,1 @@
+type Primitives = object | number | string | boolean;
