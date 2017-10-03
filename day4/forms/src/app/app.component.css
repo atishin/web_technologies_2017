@@ -1,0 +1,8 @@
+input {
+    outline: none !important;
+}
+
+.invalid {
+    border: 1px solid red;
+    
+}

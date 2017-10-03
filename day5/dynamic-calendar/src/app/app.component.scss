@@ -1,0 +1,12 @@
+:host {
+    display: flex;
+    height: 100%;
+}
+
+app-calendar {
+    flex: 1 0 auto;
+}
+
+app-date-picker {
+    width: 300px;
+}
