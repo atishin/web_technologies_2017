@@ -1,0 +1,17 @@
+<mat-toolbar color="primary"></mat-toolbar>
+
+<mat-card>
+    <mat-card-title>People</mat-card-title>
+    <mat-card-content>
+        <pre>
+            {{ people | json }}
+        </pre>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-button [matMenuTriggerFor]="menu">Menu</button>
+        <mat-menu #menu="matMenu">
+            <button mat-menu-item>Item 1</button>
+            <button mat-menu-item>Item 2</button>
+        </mat-menu>
+    </mat-card-actions>
+</mat-card>
